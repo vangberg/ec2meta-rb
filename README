@@ -1,0 +1,15 @@
+ec2meta-rb ~ ec2 instance metadata wrapper for ruby
+
+$ irb
+>> require "ec2meta"
+=> true
+>> EC2M.instance_id
+=> "i-12345"
+>> EC2M.public_ip
+=> "12.32.41.12"
+
+ec2meta-rb is available as a gem from gemcutter,
+named `ec2meta`.
+
+implemented commands:
+
