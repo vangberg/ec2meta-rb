@@ -5,11 +5,15 @@ $ irb
 => true
 >> EC2M.instance_id
 => "i-12345"
->> EC2M.public_ip
+>> EC2M.public_ipv4
 => "12.32.41.12"
 
-ec2meta-rb is available as a gem from gemcutter,
-named `ec2meta`.
+ec2meta-rb is available from gemcutter, named `ec2meta`.
 
-implemented commands:
+implemented/available commands:
 
+ami_id, ami_launch_index, ami_manifest_path, ancestor_ami_ids,
+availability_zone, block_device_mapping(device), hostname,
+instance_action, instance_id, instance_type, kernel_id
+local_hostname, local_ipv4, public_hostname, public_ipv4
+ramdisk_id, reservation_id
